@@ -4,7 +4,7 @@ import tiktoken
 
 from db.postgres import get_introspection, connect
 
-openai.api_key = "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"
+openai.api_key = ""
 
 
 def create_message(query, db_connection, introspection, history="", history_mode=False):
